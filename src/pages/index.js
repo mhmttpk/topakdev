@@ -1,7 +1,10 @@
 import Head from 'next/head'
 
+// fix this import
+// import Inter from 'inter-ui'
+// import Inter from 'inter-ui/inter.css'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
