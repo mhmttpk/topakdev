@@ -5,9 +5,6 @@ import { motion } from 'framer-motion'
 const MotionLink = motion(Link);
 
 const Logo = () => {
-    // why rounded is not working into this code?
-    // <div className='flex items-center justify-center h-16 w-16 bg-gray-800 text-white font-bold rounded-lg'>
-    // but my tailwind css is working fine. Why rounded is not working?
   return (
     <div className='flex items-center justify-center rounded-full h-16 w-16 bg-gray-800 text-white font-bold mt-2'>
         <MotionLink href='/' className='w-16 h-16 bg-dark text-light flex items-center 
